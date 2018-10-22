@@ -26,6 +26,7 @@
 
 * Your PhoneBook class should have the following method
 
+
 	* `add(String name, String phoneNumber)`
 		* adds an entry to the composite associate data type
 	* `remove(String name)`
@@ -35,25 +36,27 @@
 
 	* `reverseLookup(String phoneNumber)`
 		* returns a name for the respective input `phoneNumber`
-	* `display()`
-		* print a human-readable list of all entries (names and phone numbers) in alphabetical order.
+	* `toString()`
+		* return a human-readable list of all entries (names and phone numbers) in alphabetical order.
+		* Format should be `[name] [phone number]`
+
 
 	   * Sample Script
-	
+
 		   ```java
 		   PhoneBook phoneBook = new PhoneBook();
 		   phoneBook.add("Zebra", "111-222-333");
 		   phoneBook.add("Dog", "222-444-4444");
-		   phoneBook.display(); 
+		   phoneBook.display();
 		   ```
-	
+
 	   * Sample Output
-	
+
 		   ```
 			Dog 222-444-4444
 			Zebra 111-222-333
 		   ```
-      
+
 
 ### Implementing Many-PhoneNumbers-To-One-Person Relationship
 
