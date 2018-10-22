@@ -17,7 +17,6 @@
 
 ### Building a basic `PhoneBook` class
 
-<img src = "https://git.zipcode.rocks/Cohort4.2/CR-MicroLabs-Composition-PhoneBook/raw/branch/master/PhoneBookUML.png">
 
 
 * Create a `PhoneBook` class that holds names and phone numbers.
@@ -27,17 +26,17 @@
 
 * Your PhoneBook class should have the following method
 
-
+    * hasEntry(String name)
+        * given a name, return true if there is an entry with that name, false otherwise
 	* `add(String name, String phoneNumber)`
 		* adds an entry to the composite associate data type
-	* `remove(String name)`
-		* removes an entry to the composite associate data type
 	* `lookup(String name)`
 		* returns a phone number for the respective input `name`
-
+	* `remove(String name)`
+		* removes an entry to the composite associate data type
 	* `reverseLookup(String phoneNumber)`
 		* returns a name for the respective input `phoneNumber`
-	* `toString()`
+	* `listNamesAndNumbers()`
 		* return a human-readable list of all entries (names and phone numbers) in alphabetical order.
 		* Format should be `[name] [phone number]`
 
@@ -48,7 +47,7 @@
 		   PhoneBook phoneBook = new PhoneBook();
 		   phoneBook.add("Zebra", "111-222-333");
 		   phoneBook.add("Dog", "222-444-4444");
-		   phoneBook.display();
+		   phoneBook.listNamesAndNumbers();
 		   ```
 
 	   * Sample Output
