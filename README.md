@@ -17,7 +17,8 @@
 
 ### Building a basic `PhoneBook` class
 
-<img src = "./raw/branch/master/PhoneBookUML.png">
+<img src = "https://git.zipcode.rocks/Cohort4.2/CR-MicroLabs-Composition-PhoneBook/raw/branch/master/PhoneBookUML.png">
+
 
 * Create a `PhoneBook` class that holds names and phone numbers.
 * You can use an [associative data type](https://en.wikipedia.org/wiki/Associative_array) (one which stores items as keys paired with values).
