@@ -17,7 +17,7 @@
 
 ### Building a basic `PhoneBook` class
 
-<img src = "./PhoneBookUML.png">
+<img src = "./raw/branch/master/PhoneBookUML.png">
 
 * Create a `PhoneBook` class that holds names and phone numbers.
 * You can use an [associative data type](https://en.wikipedia.org/wiki/Associative_array) (one which stores items as keys paired with values).
